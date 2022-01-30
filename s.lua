@@ -46,10 +46,10 @@ Uc.TextSize = 15.000
 
 -- Script
 
-local x = 1
-local y = 0
+local k = 1
+local l = 0
 
-while x > 0 do
+while k > 0 do
 	wait(1)
 	print("while1")
 	UcName.Text = "not found"
@@ -129,8 +129,8 @@ while x > 0 do
 			
 			
 			UcName.Text = undercesp.Name
-			x = 0
-			y = 1
+			k = 0
+			l = 1
 			while y >  0 do
 				wait(1)
 				local undercover = player.Backpack:FindFirstChild("Fake Check Target")
@@ -138,8 +138,8 @@ while x > 0 do
 					print("while2")
 				else
 					UcName.Text = "not found"
-					x = 1
-					y = 0
+					k = 1
+					l = 0
 
 				end        
 			end
@@ -150,5 +150,5 @@ while x > 0 do
 
 end
 
-x = 0
-x = 1
+k = 0
+k = 1
