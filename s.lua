@@ -1,7 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
 
--- Instances:
 
 local FindUndercover = Instance.new("ScreenGui")
 local Under = Instance.new("Frame")
