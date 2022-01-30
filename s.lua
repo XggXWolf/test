@@ -131,7 +131,7 @@ while k > 0 do
 			UcName.Text = undercesp.Name
 			k = 0
 			l = 1
-			while y >  0 do
+			while l >  0 do
 				wait(1)
 				local undercover = player.Backpack:FindFirstChild("Fake Check Target")
 				if  undercover then
